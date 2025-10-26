@@ -1,6 +1,6 @@
 // solving tsp problem using brute force
 #include <stdio.h>
-#define N 100
+#define N 101
 
 int n, s, a[N][N], visited[N], ans = 1e9;
 
