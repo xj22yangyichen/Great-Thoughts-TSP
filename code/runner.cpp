@@ -2,18 +2,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int T = 10000, ts, te;
+int T = 1000, ts, te;
 
 int main() {
-    ts = clock();
+    int time = 0;
 
     while(T--) {
         system("./maker");
-        system("./bf");
+        int ts = clock();
+        system("./simulate_anneal");
+        int te = clock();
+        time += te - ts;
     }
 
-    te = clock();
-    printf("Time: %d", te - ts);
+    printf("Time: %d", time);
 
     return 0;
 }
