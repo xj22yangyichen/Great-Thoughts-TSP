@@ -1,4 +1,4 @@
-# Great-Thoughts-TSP
+# Great-Idea-TSP
 
 这是 2025 学年第一学期计算机科学的伟大思想课程 presentation 的代码仓库，presentation 的主题是 P vs NP —— 以 TSP 问题为例。
 
